@@ -1,0 +1,171 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 22.04.0 ] */
+/* [wxMaxima: title   start ]
+Ejercicios Practica 01
+   [wxMaxima: title   end   ] */
+
+
+/* [wxMaxima: section start ]
+Ejercicio 1.1
+   [wxMaxima: section end   ] */
+
+
+/* [wxMaxima: subsect start ]
+Los 100 primeros decimales del numero e.
+   [wxMaxima: subsect end   ] */
+
+
+/* [wxMaxima: input   start ] */
+fpprec:100$ float(%e);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: subsect start ]
+El logaritmo en base 3 de 16423203268260658146231467800709255289.
+   [wxMaxima: subsect end   ] */
+
+
+/* [wxMaxima: input   start ] */
+log3(x):=log(x)/log(3)$
+log3(16423203268260658146231467800709255289);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+%,numer;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: subsect start ]
+El arcocoseno hiperbolico de 1.
+   [wxMaxima: subsect end   ] */
+
+
+/* [wxMaxima: input   start ] */
+acosh(1);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: subsect start ]
+El seno y el coseno de i,y
+   [wxMaxima: subsect end   ] */
+
+
+/* [wxMaxima: input   start ] */
+sin(%i),numer;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+sin(y),numer;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+cos(%i),numer;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+cos(y),numer;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: subsect start ]
+El logaritmo de -2
+   [wxMaxima: subsect end   ] */
+
+
+/* [wxMaxima: input   start ] */
+log(-2),numer;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: section start ]
+Ejercicio 1.2
+   [wxMaxima: section end   ] */
+
+
+/* [wxMaxima: subsect start ]
+¿Que numero es mayor 1000**999 o 999**1000?
+   [wxMaxima: subsect end   ] */
+
+
+/* [wxMaxima: input   start ] */
+is (1000**999>999**1000);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+is(999**1000>1000*999);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: comment start ]
+999**1000 es mayor que el otro
+   [wxMaxima: comment end   ] */
+
+
+/* [wxMaxima: subsect start ]
+Ordenar de mayor a menor los numero %pi, 73231844868435875/37631844868435563 y cosh(3)/3
+   [wxMaxima: subsect end   ] */
+
+
+/* [wxMaxima: input   start ] */
+x:%pi;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+y:73231844868435875/37631844868435563;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+z:cosh(3)/3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+is(x>y);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+is(y>x);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+is(x>z);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+z>x;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+%>y;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: section start ]
+Ejercicio 1.3
+   [wxMaxima: section end   ] */
+
+
+/* [wxMaxima: input   start ] */
+kill(x);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+x**2-4/x**3+x**4-2*x**2+x+1;
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 22.04.0"$
