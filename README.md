@@ -1,2 +1,2 @@
-# Calculo
-Practicas de ZxAD**wm-maxima**
+# Cálculo
+Prácticas de **wxMaxima**
