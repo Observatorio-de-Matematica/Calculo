@@ -210,7 +210,7 @@ find_root (exp(x)+atan(x)+x-2,x,0,1);
 /* [wxMaxima: input   end   ] */
 
 
-/* [wxMaxima: hide output   ] *//* [wxMaxima: input   start ] */
+/* [wxMaxima: input   start ] */
 load(draw);
 /* [wxMaxima: input   end   ] */
 
